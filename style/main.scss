@@ -1,0 +1,77 @@
+
+
+.controller circle {
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+.controller circle.inner {
+	stroke: rgb(230, 62, 62);
+	fill: rgb(230, 62, 62);
+}
+
+.controller circle.outer {
+	stroke: rgb(190, 19, 19);
+	fill: rgb(190, 19, 19);
+}
+
+.controller circle.inner.disabled {
+	stroke: rgb(114, 94, 94) !important;
+	fill: rgb(114, 94, 94) !important;
+}
+.controller circle.outer.disabled {
+	stroke: rgb(71, 61, 61) !important;
+	fill: rgb(71, 61, 61) !important;
+}
+.controller path.grid {
+	stroke: rgb(71, 61, 61);
+	fill: rgb(71, 61, 61);
+}
+// 
+circle.cir2 {
+	stroke: rgb(190, 19, 19);
+	fill: rgb(190, 19, 19);
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+circle.cir {
+	stroke: rgb(230, 62, 62);
+	fill: rgb(230, 62, 62);
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+circle.cir2DI {
+	stroke: rgb(71, 61, 61);
+	fill: rgb(71, 61, 61);
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+circle.cirDI {
+	stroke: rgb(114, 94, 94);
+	fill: rgb(114, 94, 94);
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+circle.cir2RO {
+	stroke: rgb(138, 57, 57);
+	fill: rgb(138, 57, 57);
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+circle.cirRO {
+	stroke: rgb(185, 110, 110);
+	fill: rgb(185, 110, 110);
+	stroke-miterlimit:10;
+	stroke-width:6px;
+}
+
+rect.btn {
+	stroke:#fff;
+	fill:#fff;
+	fill-opacity:0;
+	stroke-opacity:0;
+}

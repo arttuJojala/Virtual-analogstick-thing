@@ -1,0 +1,65 @@
+.controller circle {
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+.controller circle.inner {
+  stroke: #e63e3e;
+  fill: #e63e3e; }
+
+.controller circle.outer {
+  stroke: #be1313;
+  fill: #be1313; }
+
+.controller circle.inner.disabled {
+  stroke: #725e5e !important;
+  fill: #725e5e !important; }
+
+.controller circle.outer.disabled {
+  stroke: #473d3d !important;
+  fill: #473d3d !important; }
+
+.controller path.grid {
+  stroke: #473d3d;
+  fill: #473d3d; }
+
+circle.cir2 {
+  stroke: #be1313;
+  fill: #be1313;
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+circle.cir {
+  stroke: #e63e3e;
+  fill: #e63e3e;
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+circle.cir2DI {
+  stroke: #473d3d;
+  fill: #473d3d;
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+circle.cirDI {
+  stroke: #725e5e;
+  fill: #725e5e;
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+circle.cir2RO {
+  stroke: #8a3939;
+  fill: #8a3939;
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+circle.cirRO {
+  stroke: #b96e6e;
+  fill: #b96e6e;
+  stroke-miterlimit: 10;
+  stroke-width: 6px; }
+
+rect.btn {
+  stroke: #fff;
+  fill: #fff;
+  fill-opacity: 0;
+  stroke-opacity: 0; }
